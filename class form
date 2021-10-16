@@ -1,0 +1,65 @@
+<!doctype>
+<html>
+<head>
+</head>
+<body>
+<div class="card">
+    <div class="card-body">
+      <h3>Class Details</h3></br>
+      <form class="form-sample">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Class Name</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" placeholder="Enter Class Name">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Teacher/Form Master</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" placeholder="Teacher/Form Master">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">School Fees</label>
+                    <div class="col-sm-9">
+                       <input type="number" class="form-control" placeholder="School Fees">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Termly Report</label>
+              <div class="col-sm-9">
+                <select class="form-control">
+                    <option>Select Term</option>
+                    <option>First Term</option>
+                    <option>Second Term</option>
+                    <option>Third Term</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group row">
+              <label class="col-sm-3 col-form-label">Mid-Term Report</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control form-control-lg" placeholder="Optional">
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
